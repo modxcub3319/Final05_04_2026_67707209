@@ -3,7 +3,8 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
     <router-link to="/produtcs">Products List</router-link> |
-    <router-link to="/addprodutcs">Add New Product</router-link>
+    <router-link to="/addprodutcs">Add New Product</router-link> |
+    <router-link to="/equipment">Equipment</router-link>
   </nav>
   
   <router-view/>

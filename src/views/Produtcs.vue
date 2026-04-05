@@ -11,7 +11,7 @@ const fetchProducts = async () => {
   try {
     // หมายเหตุ: ตรวจสอบ URL ให้ตรงกับใน n8n (Webhook Node)
     // หาก Activate Workflow แล้วให้ใช้ /webhook/ ถ้ายังไม่ Activate ให้ใช้ /webhook-test/
-    const res = await fetch("http://localhost:5678/webhook/data") 
+    const res = await fetch("http://localhost:5678/webhook-test/data3") 
     
     if (!res.ok) {
       throw new Error(`HTTP error! status: ${res.status}`)

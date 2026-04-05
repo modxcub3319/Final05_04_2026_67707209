@@ -1,0 +1,2 @@
+{"__type":"$$EventMessageAudit","id":"41fad5b5-eed5-4504-80e7-abbf863f1f3f","ts":"2026-04-05T13:13:14.291+07:00","eventName":"n8n.audit.user.login.failed","message":"n8n.audit.user.login.failed","payload":{"authenticationMethod":"email","userEmail":"phanup.44@gmail.com","reason":"wrong credentials"}}
+{"__type":"$$EventMessageConfirm","confirm":"41fad5b5-eed5-4504-80e7-abbf863f1f3f","ts":"2026-04-05T13:13:14.291+07:00","source":{"id":"0","name":"eventBus"}}
